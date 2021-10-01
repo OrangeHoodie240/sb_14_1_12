@@ -1,0 +1,38 @@
+What is HTTP?
+    Hyper Text Protocol. The protocol used to access documents over the web.
+
+What is a URL?
+    A unique resource to an address over HTTP 
+
+What is DNS?
+    Domain Name Space. This converts domain names, like google.com, to their associated IP address. 
+
+What is a query string?
+    A query string refers to arguments passed in the URL. They trail the necessary portion of the URL and are set off 
+    with ?. They allow us to pass values to the endpoints on the other end. 
+
+What are two HTTP verbs and how are they different?
+    GET and POST. GET does not alter the resource, simply retreives it. POST is generally used for creating a new item.  
+    Unlike GET, it modifies the resources handled by the backend. 
+
+What is an HTTP request?
+    An HTTP request is a request to an for some response to a particular endpoint. It is called an HTTP request because
+    HTTP is the protocol that defines the rules for how this request and response is to be handled. This usually means
+    requesting HTML or JSON. 
+
+What is an HTTP response?
+    An HTTP response is the response from some endpoint to some HTTP request it received. It sends what was requested to the 
+    same IP that sent the request.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    HTTP headers contain additional information about an HTTP request. 
+    A couple of examples would be the Accept header for content negotiation and the Accept-Language header for 
+    requesting a the response in a particular language.
+    
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+    1. The browser retreives the IP address for the domain name, reaching out to the DNS if necessary. 
+    2. The router takes sends the request to the correct IP address. 
+    3. The server receiving the request parses the /some/page.html information and retreives the cooresponding 
+       resource. 
+    4. The server sends the response to the requesting IP along the router. 
+    5. The browser receives the response and renders the information accordingly.
